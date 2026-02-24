@@ -1,4 +1,5 @@
 ###About This Project###
+
 All code in this repository is written by me. During development I rely on the official Terraform AzureRM provider documentation for reference, available at:
 https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
 
@@ -8,6 +9,7 @@ Anyone is free to use, study, or adapt the code in this repository. I hope it wi
 This project is deployed to my private Azure subscription and is intended exclusively for educational and testing purposes.
 
 ###What an Azure Landing Zone Is###
+
 An Azure Landing Zone is a Microsoft‑recommended architectural framework for building a secure, scalable, and well‑governed cloud environment. It is part of the Cloud Adoption Framework (CAF) and provides a comprehensive set of best practices covering:
 
 management group hierarchy and subscription organization
@@ -27,6 +29,7 @@ automation and Infrastructure as Code
 A full Azure Landing Zone is designed for enterprise‑scale environments, multi‑team operations, and long‑term governance across multiple subscriptions.
 
 ###What This Project Is###
+
 This repository contains a simplified, educational implementation inspired by Azure Landing Zone best practices.
 It is not a full enterprise deployment. Instead, it focuses on:
 
@@ -47,6 +50,7 @@ demonstrating cloud engineering skills in a portfolio‑ready format
 The project is intentionally scoped to a single subscription and a single landing zone (dev) to keep it manageable for learning.
 
 ###Differences Between a Full Azure Landing Zone and This Project###
+
 Area	Full Azure Landing Zone	                                                            This Project
 Scope	Enterprise‑scale, multi‑subscription, multi‑team	                                Single subscription, educational scope
 Governance	Full CAF policy sets, compliance frameworks, automation	                        Selected policies focused on learning best practices
